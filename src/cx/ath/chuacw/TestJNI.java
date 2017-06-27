@@ -4,6 +4,7 @@ public class TestJNI {
 
 	int A, B, C, D;
 	
+   // These methods ensure that the marshalling code is correct.
    public void A1(int A, int B, int C, int D) {
 	   System.out.println("In A1");
 	   System.out.println(A);
